@@ -1,0 +1,64 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+#hero {
+  width: 592px;
+  margin: 0 auto 72px;
+  /* 
+  - "margin:auto (short-hand)" serve para alinhar a imagem no centro da página quando colocarmos uma largura ou altura específica para ela.
+  - as 3 propriedades do "margin" seguem o índice de: 0= topo, auto= laterais, 72= base.
+  */
+}
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+span {
+  color: #ff9900;
+}
+
+p,
+#footer {
+  color: #7d7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+a {
+  color: #ff9900;
+}
+
+#footer a + a {
+  margin-left: 28px;
+  /* "a+a" significa: pegue o "a" que anterior a ele tenha um "a" e aplique um "margin-left" */
+}
+
+#line {
+  width: 568px;
+  height: 0px;
+  margin: 0 auto 8px;
+  border: 1px solid #eceff2;
+}
+
+#balls {
+  position: fixed;
+  /* position libera as seguintes propriedades: */
+  bottom: 0px;
+  right: 0px;
+}
